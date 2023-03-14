@@ -24,7 +24,7 @@ img{
 
 /* header */
 header{
-    border-top: 8px solid #1a9b00;
+    border-top: 8px solid #0d4e00;
 }
 
 .header_logo{
@@ -56,7 +56,6 @@ header nav ul li a:active,
 header nav ul li.current a{
     color: #d5a11e;
 }
-
 
 #main_image{
     width: 100%;
@@ -117,4 +116,41 @@ header nav ul li.current a{
     margin-top: 40px;
     margin-bottom: 30px;
     list-style-type: none;
+}
+
+/* footer */
+footer{
+    margin-top: 100px;
+    padding: 30px;
+    text-align: center;
+    color: #fff;
+    background-color: #0d4e00;
+}
+
+footer ul{
+    margin-bottom: 20px;
+    font-size: 0.9rem;
+}
+
+footer ul li{
+    display: inline-block;
+    margin: 5px;
+    list-style: none;
+}
+
+footer ul li a{
+    color: #fff;
+}
+
+footer ul li a:link{
+    text-decoration: none;
+}
+
+footer ul li a:hover,
+footer ul li a:active{
+    opacity: .7;
+}
+
+small {
+    font-size: 0.7rem;
 }
