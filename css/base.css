@@ -154,3 +154,28 @@ footer ul li a:active{
 small {
     font-size: 0.7rem;
 }
+
+
+/* メディアクエリ */
+/* 表示する画面の環境によって適応するスタイルの切り替え */
+/* responsive */
+@media(max-width:600px){
+    html{
+        font-size: 87%;
+    }
+
+    .header_logo{
+        width: 60px;
+    }
+
+    .contents{
+        flex-direction: column;
+        margin-top: 10px;
+    }
+
+    #main_content,
+    #sidebar{
+        width: 100%;
+    }
+
+}
